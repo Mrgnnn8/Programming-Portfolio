@@ -1,33 +1,44 @@
-import turtle
-import pandas
+import turtle  # Importing the turtle module for creating graphics
+import pandas  # Importing pandas for handling CSV data
 
+# Set up the screen
 screen = turtle.Screen()
-screen.title("U.S. States Game")
-image = "blank_states_img.gif"
-screen.addshape(image)
-turtle.shape(image)
+screen.title("U.S. States Game")  # Setting the title of the window
+image = "blank_states_img.gif"  # The image file of the U.S. map
+screen.addshape(image)  # Adding the image as a shape in turtle graphics
+turtle.shape(image)  # Setting the turtle shape to the U.S. map image
 
-data = pandas.read_csv("50_states.csv")
-all_states = data.state.to_list()
-guessed_states = []
+# Read data
+data = pandas.read_csv("50_states.csv")  # Loading the states data from CSV
+all_states = data.state.to_list()  # Creating a list of all the state names from the CSV
+guessed_states = []  # Initializing an empty list to track correctly guessed states
 
-
-while len(guessed_states) < 50:
+# Main game loop
+while len(guessed_states) < 50:  # Loop until all 50 states are guessed
+    # Prompting the user to enter the name of a state
     answer_state = screen.textinput(title="Guess the state", prompt="Type the states!").title()
-
+    
+    # Exit the game and save missing states to a file if the user types 'Exit'
     if answer_state == "Exit":
-        missing_states = []
-        for state in all_states:
-            if state not in guessed_states:
-               missing_states.append(state)
+        missing_states = []  # List to hold any states not guessed by the user
+        for state in all_states:  # Loop through all states
+            if state not in guessed_states:  # Check if the state was not guessed
+                missing_states.append(state)  # Add it to the missing states list
+        # Create a DataFrame of the missing states and save to CSV
         new_data = pandas.DataFrame(missing_states)
-        new_data.to_csv("stats_to_learn.csv")
-        break
-    if answer_state in all_states:
-        guessed_states.append(answer_state)
+        new_data.to_csv("stats_to_learn.csv")  # Save the missing states to a CSV file
+        break  # Exit the game loop
+
+    # Check if the answer is a valid state and hasn't been guessed before
+    if answer_state in all_states and answer_state not in guessed_states:
+        guessed_states.append(answer_state)  # Add the correct guess to the list
+        
+        # Set up a turtle to write the state's name on the map
         t = turtle.Turtle()
-        t.hideturtle()
-        t.penup()
+        t.hideturtle()  # Hide the turtle pointer
+        t.penup()  # Lift the pen to move without drawing
+        
+        # Get the coordinates of the guessed state from the CSV data
         state_data = data[data.state == answer_state]
-        t.goto(state_data.x.item(), state_data.y.item())
-        t.write(answer_state)
+        t.goto(state_data.x.item(), state_data.y.item())  # Move to the state's coordinates
+        t.write(answer_state)  # Write the state name on the map
