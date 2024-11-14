@@ -10,7 +10,7 @@ My portfolio includes:
 
 - Mail Merger: A Python-based automation tool that generates personalized emails using user-provided data and a template.
 
-- U.S. States Namer Game: A fun, interactive Python game where users guess the names of U.S. states based on a map. The states the user failed to guess are then saved in a file for the user to practise for their next attempt.
+- U.S. States Namer Game: A fun, interactive Python game where users guess the names of U.S. states based on a map. Correct guess appear above their state on an image. The states the user failed to guess are then saved in a file for the user to practise for their next attempt.
 
 - Student Exam Score Predictor: A machine learning project that predicts student exam scores using linear regression and evaluates the model’s performance using MAE and R-squared metrics.
 
