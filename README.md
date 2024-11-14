@@ -1,7 +1,5 @@
 Welcome to My Code Portfolio!
 
-About Me
-
 Hello! I'm a passionate and driven Python developer with a strong foundation in data science, machine learning, and software development. I’m currently finishing my Business and Management degree, but my true passion lies in the world of technology and artificial intelligence. With a deep curiosity about how data can be used to solve complex problems, I have developed a range of projects that showcase my skills in both coding and problem-solving.
 
 I have experience working with a variety of tools and libraries including Python, Pandas, Scikit-learn, Matplotlib, Seaborn, and XGBoost. I also have hands-on experience with machine learning algorithms such as Random Forests, linear regression, and support vector machines, and I have applied these models to real-world datasets in domains such as finance and gaming.
