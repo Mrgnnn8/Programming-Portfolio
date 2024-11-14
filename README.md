@@ -6,14 +6,14 @@ I have experience working with a variety of tools and libraries including Python
 
 My portfolio includes:
 
-Crossy Road-Style Game: A Python game using the Turtle module, where I enhanced the gameplay with AI elements, such as lane-changing behavior and behaviour relative to the players position. The game also includes a high score tracker to monitor the player's best performance.
+- Crossy Road-Style Game: A Python game using the Turtle module, where I enhanced the gameplay with AI elements, such as lane-changing behavior and behaviour relative to the players position. The game also includes a high score tracker to monitor the player's best performance.
 
-Mail Merger: A Python-based automation tool that generates personalized emails using user-provided data and a template.
+- Mail Merger: A Python-based automation tool that generates personalized emails using user-provided data and a template.
 
-U.S. States Namer Game: A fun, interactive Python game where users guess the names of U.S. states based on a map. The states the user failed to guess are then saved in a file for the user to practise for their next attempt.
+- U.S. States Namer Game: A fun, interactive Python game where users guess the names of U.S. states based on a map. The states the user failed to guess are then saved in a file for the user to practise for their next attempt.
 
-Student Exam Score Predictor: A machine learning project that predicts student exam scores using linear regression and evaluates the model’s performance using MAE and R-squared metrics.
+- Student Exam Score Predictor: A machine learning project that predicts student exam scores using linear regression and evaluates the model’s performance using MAE and R-squared metrics.
 
-Nvidia Stock Price Predictor: A machine learning model that predicts the future stock prices of Nvidia using historical data and various financial indicators.
+- Nvidia Stock Price Predictor: A machine learning model that predicts the future stock prices of Nvidia using historical data and various financial indicators.
 
 My goal is to continue honing my skills in AI/ML, cloud computing, and backend development, and eventually pursue a career as a Chief Technology Officer (CTO) or an AI/IT consultant. I enjoy taking on challenges, building innovative solutions, and learning new techniques to improve my work.
