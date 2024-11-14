@@ -8,7 +8,7 @@ I have experience working with a variety of tools and libraries including Python
 
 My portfolio includes:
 
-Crossy Road-Style Game: A Python game using the Turtle module, where I enhanced the gameplay with AI elements, such as lane-changing behavior and acceleration towards the player. The game also includes a high score tracker to monitor the player's best performance.
+Crossy Road-Style Game: A Python game using the Turtle module, where I enhanced the gameplay with AI elements, such as lane-changing behavior and behaviour relative to the players position. The game also includes a high score tracker to monitor the player's best performance.
 
 Mail Merger: A Python-based automation tool that generates personalized emails using user-provided data and a template.
 
