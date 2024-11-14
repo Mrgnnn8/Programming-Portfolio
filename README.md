@@ -1,33 +1,21 @@
 Welcome to My Code Portfolio!
 
-Hello! I'm a passionate and versatile developer with a strong foundation in Python and a range of modern tools and frameworks. My portfolio showcases projects that span various domains, including web development, data science, automation, and game development. With each project, I strive to combine functionality with clean, well-documented code.
+About Me
 
-Technical Skills
+Hello! I'm a passionate and driven Python developer with a strong foundation in data science, machine learning, and software development. I’m currently finishing my Business and Management degree, but my true passion lies in the world of technology and artificial intelligence. With a deep curiosity about how data can be used to solve complex problems, I have developed a range of projects that showcase my skills in both coding and problem-solving.
 
-- Programming & Data Science
-    - Python 3: Leveraging the latest version to create efficient, scalable solutions.
+I have experience working with a variety of tools and libraries including Python, Pandas, Scikit-learn, Matplotlib, Seaborn, and XGBoost. I also have hands-on experience with machine learning algorithms such as Random Forests, linear regression, and support vector machines, and I have applied these models to real-world datasets in domains such as finance and gaming.
 
-    - Data Analysis & Visualization: Experienced in data science with Pandas, NumPy, Matplotlib, Plotly, and Seaborn to uncover insights and create visually engaging data stories.
+Some of the key projects in my portfolio include:
 
-    - Machine Learning: Applying models and algorithms through Scikit-Learn for predictive insights and analytical projects.
+Crossy Road-Style Game: A Python game using the Turtle module, where I enhanced the gameplay with AI elements, such as lane-changing behavior and acceleration towards the player. The game also includes a high score tracker to monitor the player's best performance.
 
-- Web Development
-    - Back-End Development: Building robust server-side applications with Flask, designing RESTful APIs, and integrating SQL and PostgreSQL databases for effective data management.
+Mail Merger: A Python-based automation tool that generates personalized emails using user-provided data and a template.
 
-    - Front-End Development: Crafting responsive user interfaces with HTML5, CSS3, and Bootstrap 4.
+U.S. States Namer Game: A fun, interactive Python game where users guess the names of U.S. states based on a map.
 
-    - Authentication & Deployment: Implementing secure user authentication and deploying applications on Heroku and GitHub Pages for accessibility.
+Student Exam Score Predictor: A machine learning project that predicts student exam scores using linear regression and evaluates the model’s performance using MAE and R-squared metrics.
 
-- Automation & Web Scraping
-    - Web Scraping: Extracting and processing data with Beautiful Soup, Selenium WebDriver, and Requests.
+Nvidia Stock Price Predictor: A machine learning model that predicts the future stock prices of Nvidia using historical data and various financial indicators.
 
-    - Scripting & Automation: Developing Python scripts for routine tasks and large-scale data handling, enabling efficient workflows.
-
-- Game Development & GUI
-    - Python Game Development: Using Turtle for graphical game projects and Tkinter for desktop GUIs, blending creativity with interactive user experiences.
-Version Control & Collaboration
-
-    - Git & GitHub: Comprehensive version control experience to manage project history, support collaboration, and ensure high-quality code management.
-
- 
-
+My goal is to continue honing my skills in AI/ML, cloud computing, and backend development, and eventually pursue a career as a Chief Technology Officer (CTO) or an AI/IT consultant. I enjoy taking on challenges, building innovative solutions, and learning new techniques to improve my work.
