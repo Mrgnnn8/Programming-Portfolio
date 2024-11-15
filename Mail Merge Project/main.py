@@ -1,16 +1,12 @@
-# Open the starting letter template
 with open("Input/Letters/starting_letter.txt", "r") as letter_file:
-    first = letter_file.read()  # Read the whole letter template
+    first = letter_file.read() 
 
-# Open the list of invited names
 with open("Input/Names/invited_names.txt", "r") as names_file:
-    names = names_file.readlines()  # Read all names
+    names = names_file.readlines() 
 
-# For each name, create a personalized letter
 for name in names:
-    stripped_name = name.strip()  # Remove newline characters from the name
-    personalized_letter = first.replace("[name]", stripped_name)  # Replace [name] with the actual name
+    stripped_name = name.strip() 
+    personalized_letter = first.replace("[name]", stripped_name)  
 
-    # Write the personalized letter to a new file
     with open(f"Output/ReadyToSend/letter_for_{stripped_name}.txt", "w") as output_file:
         output_file.write(personalized_letter)
