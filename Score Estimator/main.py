@@ -4,26 +4,23 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_absolute_error
 import matplotlib.pyplot as plt
 
-data = pd.read_csv('student_scores.csv')
+# Load the dataset
+data = pd.read_csv('student_scores.csv')  # Read the CSV file into a Pandas DataFrame
 
-X = data[['Hours']] 
-y = data['Score']    
+# Define features (Hours studied) and target variable (Exam Score)
+X = data[['Hours']]  # Features - Hours studied
+y = data['Score']    # Target - Exam scores
 
+# Split the data into training and testing sets (80% training, 20% testing)
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
+# Create and train the Linear Regression model
 model = LinearRegression()
-model.fit(X_train, y_train)
+model.fit(X_train, y_train)  # Fit the model to the training data
 
+# Make predictions on the test set
 y_pred = model.predict(X_test)
 
+# Calculate Mean Absolute Error to evaluate model performance
 mae = mean_absolute_error(y_test, y_pred)
-print(f'Mean Absolute Error: {mae:.2f}')
-
-plt.scatter(X, y, color='blue', label='Actual Scores') 
-plt.plot(X, model.predict(X), color='red', label='Regression Line')  
-plt.xlabel('Hours Studied')
-plt.ylabel('Exam Score')
-plt.title('Hours Studied vs Exam Score')
-plt.legend()
-plt.show()
-
+print(f'Mean Absolute Error: {mae:.2f}')  # Print the MAE to
