@@ -1,0 +1,116 @@
+2024-11-21 15:40:39,568 - WARNING - Chat history file not found. Starting a new history.
+2024-11-21 15:40:49,818 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 529 "
+2024-11-21 15:40:49,818 - INFO - Retrying request to /v1/messages in 0.450667 seconds
+2024-11-21 15:40:51,707 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-21 15:40:51,709 - INFO - User: hello
+2024-11-21 15:40:51,709 - INFO - Claude: [TextBlock(text='Hello, friend, on this fine day—  \nA simple word, but much to say.  \nLike morning sun that breaks through gray,  \nYour greeting brightens up my way.', type='text')]
+2024-11-21 15:42:06,235 - WARNING - Chat history file not found. Starting a new history.
+2024-11-21 15:42:10,573 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 529 "
+2024-11-21 15:42:10,573 - INFO - Retrying request to /v1/messages in 0.449503 seconds
+2024-11-21 15:42:11,621 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 529 "
+2024-11-21 15:42:11,621 - INFO - Retrying request to /v1/messages in 0.869388 seconds
+2024-11-21 15:42:12,929 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 529 "
+2024-11-21 15:42:12,929 - ERROR - Error while generating response: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}}
+2024-11-21 15:42:12,930 - INFO - User: hello
+2024-11-21 15:42:12,930 - INFO - Claude: Error: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}}
+2024-11-21 15:43:14,812 - WARNING - Chat history file not found. Starting a new history.
+2024-11-21 15:43:35,722 - WARNING - Chat history file not found. Starting a new history.
+2024-11-21 15:43:40,410 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 529 "
+2024-11-21 15:43:40,410 - INFO - Retrying request to /v1/messages in 0.396980 seconds
+2024-11-21 15:43:42,484 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 529 "
+2024-11-21 15:43:42,485 - INFO - Retrying request to /v1/messages in 0.990680 seconds
+2024-11-21 15:43:44,187 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 529 "
+2024-11-21 15:43:44,187 - ERROR - Error while generating response: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}}
+2024-11-21 15:43:44,187 - INFO - User: hello
+2024-11-21 15:43:44,187 - INFO - Claude: Error: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}}
+2024-11-21 15:44:08,736 - WARNING - Chat history file not found. Starting a new history.
+2024-11-21 15:44:13,319 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-21 15:44:13,321 - INFO - User: hello
+2024-11-21 15:44:13,321 - INFO - Claude: [TextBlock(text='Hello, friend, on this fine day,  \nA simple greeting comes your way.  \nLike morning dew upon the grass,  \nThese words between us gently pass.', type='text')]
+2024-11-21 15:47:06,969 - WARNING - Chat history file not found. Starting a new history.
+2024-11-21 15:47:27,213 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-21 15:47:27,215 - INFO - User: I have a problem with a product I purchased
+2024-11-21 15:47:27,215 - INFO - Claude: [TextBlock(text="I'm sorry to hear you're having trouble! I'd be happy to help you with your product issue. Could you please tell me more about:\n\n1. What product you purchased\n2. What specific problem you're experiencing\n3. When you bought it\n\nOnce you share these details, I can better assist you in finding a solution!", type='text')]
+2024-11-21 15:48:45,543 - WARNING - Chat history file not found. Starting a new history.
+2024-11-21 15:48:52,377 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-21 15:48:52,379 - INFO - User: hello
+2024-11-21 15:48:52,379 - INFO - Claude: Error: 'TextBlock' object has no attribute 'get'
+2024-11-21 15:49:10,729 - WARNING - Chat history file not found. Starting a new history.
+2024-11-21 15:49:14,222 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-21 15:49:14,224 - INFO - User: hello
+2024-11-21 15:49:14,224 - INFO - Claude: Error: 'TextBlock' object has no attribute 'get'
+2024-11-21 15:49:59,645 - WARNING - Chat history file not found. Starting a new history.
+2024-11-21 15:50:04,821 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-21 15:50:04,823 - INFO - User: hello
+2024-11-21 15:50:04,823 - INFO - Claude: Hi. How can I help?
+2024-11-21 15:50:19,111 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-21 15:50:19,118 - INFO - User: I want assistance with my university assignment
+2024-11-21 15:50:19,118 - INFO - Claude: Specify what type of assignment and what help you need (research, brainstorming, structuring, etc.). Note that I cannot write assignments for you or help with academic dishonesty.
+2024-11-25 18:08:11,530 - WARNING - Chat history file not found. Starting a new history.
+2024-11-25 18:08:15,908 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-25 18:08:15,911 - INFO - User: hi
+2024-11-25 18:08:15,911 - INFO - Claude: Hello. How can I help?
+2024-11-25 18:08:24,227 - INFO - Chat history saved successfully.
+2024-11-25 18:08:31,590 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-25 18:08:31,591 - INFO - User: lodd
+2024-11-25 18:08:31,591 - INFO - Claude: This appears to be a misspelling. Without more context, I cannot determine if you meant "load," "lord," or another word.
+2024-11-25 18:08:46,235 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-25 18:08:46,235 - INFO - User: can you remeber this chat log?
+2024-11-25 18:08:46,235 - INFO - Claude: No, I cannot remember previous conversations. Each interaction starts fresh.
+2024-11-25 18:09:00,013 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-25 18:09:00,013 - INFO - User: if i save the chat log then reload it, what happens?
+2024-11-25 18:09:00,013 - INFO - Claude: When you reload a saved chat log, the conversation history is preserved but it starts a new session. The AI doesn't maintain memory of previous interactions beyond what's explicitly shown in the reloaded chat log.
+2024-11-25 18:12:10,404 - INFO - Chat history loaded successfully.
+2024-11-25 18:12:26,829 - INFO - Chat history saved successfully.
+2024-11-25 18:12:31,454 - INFO - Chat history loaded successfully.
+2024-11-25 18:13:23,982 - INFO - Chat history loaded successfully.
+2024-11-25 18:14:21,504 - INFO - User: Hello
+2024-11-25 18:14:22,259 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-25 18:14:22,261 - INFO - Claude: Hi. Ready for your question.
+2024-11-25 18:14:30,447 - INFO - User: what day is it today?
+2024-11-25 18:14:31,386 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-25 18:14:31,387 - INFO - Claude: I don't have access to real-time information. I cannot tell you today's date.
+2024-11-25 18:14:44,126 - INFO - User: Hello, what is 5 x 5?
+2024-11-25 18:14:44,709 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-25 18:14:44,709 - INFO - Claude: 25
+2024-11-25 18:16:08,987 - INFO - User: Hello
+2024-11-25 18:16:09,630 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-25 18:16:09,632 - INFO - Claude: Hi. How can I help?
+2024-11-25 18:16:26,675 - INFO - User: hello
+2024-11-25 18:16:27,861 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-25 18:16:27,863 - INFO - Claude: Hi. How can I help?
+2024-11-25 18:16:34,574 - INFO - User: what is 5 / 4
+2024-11-25 18:16:35,057 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-25 18:16:35,058 - INFO - Claude: 1.25
+2024-11-25 18:16:42,458 - INFO - User: what can you do?
+2024-11-25 18:16:43,388 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-25 18:16:43,389 - INFO - Claude: I can engage in conversations, answer questions, help with analysis, writing, math, coding, and general information across many topics. I aim to provide accurate, factual responses.
+2024-11-25 18:17:13,369 - INFO - User: hello
+2024-11-25 18:17:13,961 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-25 18:17:13,963 - INFO - Claude: Hi. How can I help?
+2024-11-25 18:17:45,049 - INFO - User: hello, what can you do?
+2024-11-25 18:17:46,025 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-25 18:17:46,027 - INFO - Claude: I can answer questions, help with analysis, writing, math, coding, and general knowledge tasks. I aim to provide accurate, direct responses based on facts.
+2024-11-25 18:18:00,210 - INFO - User: who was ironman played by?
+2024-11-25 18:18:01,281 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-25 18:18:01,282 - INFO - Claude: Robert Downey Jr. played Tony Stark/Iron Man in the Marvel Cinematic Universe from 2008-2019.
+2024-11-25 18:19:08,744 - INFO - User: how many films does disney have?
+2024-11-25 18:19:10,021 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-25 18:19:10,022 - INFO - Claude: Disney has produced over 500 live-action films and 120+ animated feature films through Walt Disney Pictures, not including films from subsidiaries like Pixar, Marvel, Lucasfilm, and 20th Century Studios.
+2024-11-25 18:21:13,647 - INFO - User: hello
+2024-11-25 18:21:14,231 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-25 18:21:14,233 - INFO - Claude: Hi. How can I help?
+2024-11-25 18:31:46,807 - INFO - User: good evening
+2024-11-25 18:31:47,504 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-25 18:31:47,506 - INFO - Claude: Hello.
+2024-11-25 21:19:49,264 - INFO - User: 5 x 12 / 4 + 45
+2024-11-25 21:19:49,899 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-25 21:19:49,901 - INFO - Claude: 60
+2025-01-15 19:56:28,607 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-15 19:57:18,804 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-15 19:58:10,999 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-15 20:00:04,350 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-15 20:05:12,110 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-15 20:07:18,682 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-15 20:07:55,009 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-15 20:08:16,400 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
