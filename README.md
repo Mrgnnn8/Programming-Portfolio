@@ -5,13 +5,11 @@ I have experience working with a variety of tools and libraries including Python
 
 My portfolio includes:
 
-- Claude AI Chat Application: A Python-based GUI chatbot that integrates Anthropic's Claude API to simulate conversations with an AI assistant. Built using Tkinter for the interface, the app features real-time interaction, error handling, chat history management, and the secure use of API keys via environment variables.
+- Productivity Assistant Chatbot: The project demonstrates skills in AI integration, Python programming, data analysis, and user-centric design while overcoming challenges like data integration and AI fine-tuning. This bot highlights AI's potential to optimise personal productivity.
 
 - Crossy Road-Style Game: A Python game using the Turtle module, enhanced with AI elements such as lane-changing behavior and dynamic reactions based on the player’s position. The game includes a high score tracker to monitor player performance.
 
 - Mail Merger: A Python-based automation tool that generates personalized emails using user-provided data and a template, demonstrating skills in file handling and string manipulation.
-
-- U.S. States Namer Game: A fun, interactive Python game where users guess the names of U.S. states based on a map. Correct guesses appear above their respective states, and missed states are saved in a file for future practice.
 
 - Student Exam Score Predictor: A machine learning project that predicts student exam scores using linear regression and evaluates the model’s performance with metrics like MAE and R-squared.
 
